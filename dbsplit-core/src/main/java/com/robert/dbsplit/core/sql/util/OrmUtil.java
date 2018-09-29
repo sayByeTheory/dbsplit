@@ -16,6 +16,10 @@ public abstract class OrmUtil {
 
     private int bbbb;
 
+    private long ccc;
+
+    private boolean dddd;
+
 
 	private static final Logger log = LoggerFactory.getLogger(OrmUtil.class);
 
