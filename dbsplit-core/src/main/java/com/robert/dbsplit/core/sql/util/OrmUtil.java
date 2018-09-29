@@ -11,16 +11,6 @@ import java.sql.Types;
 import java.util.Date;
 
 public abstract class OrmUtil {
-
-    private String aaa;
-
-    private int bbbb;
-
-    private long ccc;
-
-    private boolean dddd;
-
-
 	private static final Logger log = LoggerFactory.getLogger(OrmUtil.class);
 
 	public static String javaClassName2DbTableName(String name) {
