@@ -1,17 +1,22 @@
 package com.robert.dbsplit.core.sql.util;
 
+import com.mysql.jdbc.ResultSetMetaData;
+import com.robert.dbsplit.util.reflect.ReflectionUtil;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.lang.reflect.Method;
 import java.sql.ResultSet;
 import java.sql.Types;
 import java.util.Date;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import com.mysql.jdbc.ResultSetMetaData;
-import com.robert.dbsplit.util.reflect.ReflectionUtil;
-
 public abstract class OrmUtil {
+
+    private String aaa;
+
+    private int bbbb;
+
+
 	private static final Logger log = LoggerFactory.getLogger(OrmUtil.class);
 
 	public static String javaClassName2DbTableName(String name) {
